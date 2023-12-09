@@ -1,0 +1,39 @@
+body {
+    background-color: #a5d8dd;
+    display: flex;
+    justify-content: center;
+}
+#panel {
+    margin-top: 40px;
+    width: 650px;
+    height: 800px;
+    background-color: #7e909a;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+#top {
+    height: 240px;
+    margin: 12px;
+}
+#power {
+    margin: 10px;
+    border: 2px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+}
+#solar {
+    margin-top: 5px;
+    object-fit: cover;
+    height: 60px;
+    width: 300px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+}
+#output {
+    background-color: white;
+    height: 130px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
