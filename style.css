@@ -2,8 +2,12 @@ body {
     background-color: #a5d8dd;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 40px;
     width: 650px;
     height: 800px;
@@ -16,24 +20,46 @@ body {
     margin: 12px;
 }
 #power {
+    font-size: 30px;
     margin: 10px;
     border: 2px;
     height: 80px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
 #solar {
     margin-top: 5px;
     object-fit: cover;
     height: 60px;
-    width: 300px;
+    width: 250px;
     border: 1px solid #f1f1f1;
     border-radius: 10px;
 }
 #output {
     background-color: white;
     height: 130px;
+    width: 600px;
     margin: 10px;
     border: 2px solid black;
     border-radius: 10px;
+}
+#inputs {
+    border-radius: 10px;
+    width: 620px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+button {
+    flex: calc(20% - 1px);
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid;
+    text-align: center;
+    margin: 10px; 
+    border-radius: 10px;
+    font-size: 30px;
+    
 }
