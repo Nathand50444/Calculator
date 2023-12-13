@@ -13,25 +13,26 @@
                 <div id="signature">Calculon 3000</div>
                 <img src="imgs/icarus-chu-ZQINxp2KP8k-unsplash.jpg" alt="Solar power go brrrrr." id="solar">
             </div>
-            <div id="output"></div>
+            <input type="text" id="output" readonly></input>
         </div>
         <div id="inputs">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>÷</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>x</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button>
-            <button>0</button>
-            <button>C</button>
-            <button>=</button>
-            <button>+</button>
+            <button onclick="appendToOutput('7')">7</button>
+            <button onclick="appendToOutput('8')">8</button>
+            <button onclick="appendToOutput('9')">9</button>
+            <button onclick="appendToOutput('÷')">÷</button>
+            <button onclick="appendToOutput('4')">4</button>
+            <button onclick="appendToOutput('5')">5</button>
+            <button onclick="appendToOutput('6')">6</button>
+            <button onclick="appendToOutput('x')">x</button>
+            <button onclick="appendToOutput('1')">1</button>
+            <button onclick="appendToOutput('2')">2</button>
+            <button onclick="appendToOutput('3')">3</button>
+            <button onclick="appendToOutput('-')">-</button>
+            <button onclick="appendToOutput('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendToOutput('+')">+</button>
+            <script src="script.js"></script>
         </div>
     </div>
 </body>

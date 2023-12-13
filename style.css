@@ -36,6 +36,8 @@ body {
     border-radius: 10px;
 }
 #output {
+    text-align: end;
+    font-size: 50px;
     background-color: white;
     height: 130px;
     width: 600px;
@@ -61,5 +63,4 @@ button {
     margin: 10px; 
     border-radius: 10px;
     font-size: 30px;
-    
 }
