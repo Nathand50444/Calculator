@@ -16,24 +16,25 @@
             <input type="text" id="output" readonly></input>
         </div>
         <div id="inputs">
-            <button onclick="appendToOutput('7')">7</button>
-            <button onclick="appendToOutput('8')">8</button>
-            <button onclick="appendToOutput('9')">9</button>
-            <button onclick="appendToOutput('÷')">÷</button>
-            <button onclick="appendToOutput('4')">4</button>
-            <button onclick="appendToOutput('5')">5</button>
-            <button onclick="appendToOutput('6')">6</button>
-            <button onclick="appendToOutput('x')">x</button>
-            <button onclick="appendToOutput('1')">1</button>
-            <button onclick="appendToOutput('2')">2</button>
-            <button onclick="appendToOutput('3')">3</button>
-            <button onclick="appendToOutput('-')">-</button>
-            <button onclick="appendToOutput('0')">0</button>
+            <button onclick="getNumber('7')">7</button>
+            <button onclick="getNumber('8')">8</button>
+            <button onclick="getNumber('9')">9</button>
+            <button onclick="getOperator('÷')">÷</button>
+            <button onclick="getNumber('4')">4</button>
+            <button onclick="getNumber('5')">5</button>
+            <button onclick="getNumber('6')">6</button>
+            <button onclick="getOperator('*')">*</button>
+            <button onclick="getNumber('1')">1</button>
+            <button onclick="getNumber('2')">2</button>
+            <button onclick="getNumber('3')">3</button>
+            <button onclick="getOperator('-')">-</button>
+            <button onclick="getNumber('0')">0</button>
             <button onclick="clearDisplay()">C</button>
             <button onclick="calculateResult()">=</button>
-            <button onclick="appendToOutput('+')">+</button>
+            <button onclick="getOperator('+')">+</button>
             <script src="script.js"></script>
         </div>
     </div>
+    <div id="footer"><a href=https://github.com/Nathand50444>Nathand50444</a> - 2023</div>
 </body>
 </html>
