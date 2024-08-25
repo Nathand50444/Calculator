@@ -1,0 +1,29 @@
+# Calculator Project
+
+## Overview
+
+A basic calculator built with HTML, CSS, and JavaScript, allowing users to perform arithmetic operations.
+
+## Features
+
+* Basic arithmetic operations: addition, subtraction, multiplication, and division
+* Simple calculator user interface
+
+## Technologies Used
+
+* HyperText Markup Language (HTML) for structuring content
+* Cascading Style Sheets (CSS) for styling and layout
+* JavaScript (JS) for functionality, input registration and following calculations
+
+## Getting Started
+
+1. Open the `index.html` file in a web browser, or use 'Live Server' plugin and 'Go Live'
+2. Enter numbers and operators using the on-screen buttons.
+3. Press the "=" button to calculate the result.
+
+## Directory Structure
+
+* `calculator/`
+	+ `index.html`: The main HTML file for the calculator interface.
+	+ `script.js`: The JavaScript file containing the calculator's logic and functionality.
+	+ `style.css`: The CSS file for styling and layout.
